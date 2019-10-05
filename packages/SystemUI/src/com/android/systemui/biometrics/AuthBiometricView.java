@@ -51,7 +51,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.android.internal.util.custom.fod.FodUtils;
+import com.android.internal.util.custom.FodUtils;
 
 /**
  * Contains the Biometric views (title, subtitle, icon, buttons, etc) and its controllers.
