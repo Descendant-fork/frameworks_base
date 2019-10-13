@@ -39,6 +39,16 @@ LOCAL_REQUIRED_MODULES := \
 	FontKaiOverlay \
     FontSamOverlay \
     FontVictorOverlay \
+        FontAclonicaSourceOverlay \
+        FontAmaranteSourceOverlay \
+        FontBariolSourceOverlay \
+        FontCagliostroSourceOverlay \
+        FontCoolstorySourceOverlay \
+        FontLGSmartGothicSourceOverlay \
+        FontNotoSerifSourceOverlay \
+        FontRosemarySourceOverlay \
+        FontSonySketchSourceOverlay \
+        FontSurferSourceOverlay \
 	IconPackCircularAndroidOverlay \
 	IconPackCircularLauncherOverlay \
 	IconPackCircularSettingsOverlay \
