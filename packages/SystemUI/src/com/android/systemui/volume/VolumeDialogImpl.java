@@ -104,6 +104,7 @@ import com.android.settingslib.Utils;
 import com.android.systemui.Dependency;
 import com.android.systemui.Prefs;
 import com.android.systemui.R;
+import com.android.systemui.media.dialog.MediaOutputDialogFactory;
 import com.android.systemui.plugins.ActivityStarter;
 import com.android.systemui.plugins.VolumeDialog;
 import com.android.systemui.plugins.VolumeDialogController;
@@ -518,7 +519,6 @@ public class VolumeDialogImpl implements VolumeDialog,
         row.icon.setImageResource(iconRes);
         row.icon.setClickable(false);
     }
-
 
     public void initRingerH() {
         mRinger.setAlpha(0f);
