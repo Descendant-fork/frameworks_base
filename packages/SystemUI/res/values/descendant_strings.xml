@@ -84,4 +84,7 @@
     <!-- Autobrightness tile -->
     <string name="quick_settings_autobrightness_label">Auto \nbrightness</string>
 
+     <!-- Biometric Dialog - Use Face -->
+    <string name="biometric_dialog_button_use_face">Use Face</string>
+
 </resources>
