@@ -29,7 +29,7 @@ public class WeatherHttpClient {
     private static String CELSIUS = "°C ";
     private static String FAHRENHEIT = "°F ";
     private static String EMPTY_STRING = "";
-    private static String APPID = "&appid=APIHERE";
+    private static String APPID = "&appid=ec487cbfa9afa0881489dcc6bbe1f340";
     private static String UNITS = "&units=metric";
     private static String LANG = "&lang=";
     private static int ERROR_INT = 7777;
