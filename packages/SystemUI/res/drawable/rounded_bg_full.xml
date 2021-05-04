@@ -21,8 +21,8 @@
        android:shape="rectangle">
     <solid android:color="@color/vol_pan_bkg" />
     <corners
-        android:bottomLeftRadius="12dp"
-        android:topLeftRadius="12dp"
-        android:bottomRightRadius="12dp"
-        android:topRightRadius="12dp"/>
+        android:bottomLeftRadius="18dp"
+        android:topLeftRadius="18dp"
+        android:bottomRightRadius="18dp"
+        android:topRightRadius="18dp"/>
 </shape>

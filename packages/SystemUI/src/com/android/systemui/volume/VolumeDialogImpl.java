@@ -337,6 +337,10 @@ public class VolumeDialogImpl implements VolumeDialog,
                         }
                     })
                     .start();
+            mMain.setBackgroundResource(R.drawable.rounded_bg_full_transparent);
+            mMain.setPadding(0, 0, 0, 0);
+            mRinger.setBackgroundResource(R.drawable.rounded_bg_full_transparent);
+            mRinger.setPadding(0, 0, 0, 0);
         });
         mDialogView.setOnHoverListener((v, event) -> {
             int action = event.getActionMasked();
@@ -1662,6 +1666,10 @@ public class VolumeDialogImpl implements VolumeDialog,
             h.postDelayed(() -> {
                 isAnimationInProgress = false;
             }, 700);
+        mMain.setBackgroundResource(R.drawable.rounded_bg_full_transparent);
+        mMain.setPadding(0, 0, 0, 0);
+        mRinger.setBackgroundResource(R.drawable.rounded_bg_full_transparent);
+        mRinger.setPadding(0, 0, 0, 0);
     }
 
     private void expandedPanel() {

@@ -75,12 +75,18 @@
         android:clipToPadding="false">
         <LinearLayout
             android:id="@+id/main"
+            android:translationZ="14dp"
+            android:elevation="14dp"
+            android:background="@drawable/rounded_bg_full_transparent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:clipToPadding="false">
             <LinearLayout
                 android:id="@+id/volume_dialog_rows"
+                android:translationZ="14dp"
+                android:elevation="14dp"
+                android:background="@drawable/rounded_bg_full_transparent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:minWidth="@dimen/volume_dialog_panel_width"
@@ -100,6 +106,8 @@
             android:translationZ="@dimen/volume_dialog_elevation">
             <com.android.keyguard.AlphaOptimizedImageButton
                 android:id="@+id/ringer_icon"
+                android:translationZ="14dp"
+                android:elevation="14dp"
                 style="@style/VolumeButtons"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -115,6 +123,8 @@
                 android:background="@drawable/rounded_bg_full" />
             <com.android.keyguard.AlphaOptimizedImageButton
                 android:id="@+id/extend_outputs"
+                android:translationZ="14dp"
+                android:elevation="14dp"
                 style="@style/VolumeButtons"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
