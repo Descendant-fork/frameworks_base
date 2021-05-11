@@ -16,8 +16,6 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:tag="row"
-    android:translationZ="14dp"
-    android:elevation="14dp"
     android:layout_height="wrap_content"
     android:layout_width="@dimen/volume_dialog_panel_width"
     android:clipChildren="false">
@@ -26,8 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:gravity="center"
-        android:translationZ="14dp"
-        android:elevation="14dp"
         android:layout_marginLeft="2dp"
         android:layout_marginRight="2dp"
         android:layout_gravity="center"
@@ -44,8 +40,6 @@
             android:textAppearance="@style/TextAppearance.Volume.Header" />
         <FrameLayout
             android:id="@+id/volume_row_slider_frame"
-            android:translationZ="14dp"
-            android:elevation="14dp"
             android:layout_width="match_parent"
             android:layout_marginTop="-13dp"
             android:layout_marginBottom="-13dp"
@@ -68,8 +62,6 @@
         <com.android.keyguard.AlphaOptimizedImageButton
             android:id="@+id/volume_row_icon"
             style="@style/VolumeButtons"
-            android:translationZ="14dp"
-            android:elevation="14dp"
             android:layout_width="@dimen/volume_dialog_tap_target_size"
             android:layout_height="@dimen/volume_dialog_tap_target_size"
             android:background="@android:color/transparent"
